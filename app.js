@@ -1,6 +1,6 @@
 // 1 - Mostre um alerta com a mensagem "Boas vindas ao nosso site!".
 
- alert('Boas vindas ao nosso site!');
+alert('Boas vindas ao nosso site!');
 
 // 2 - Declare uma variável chamada nome e atribua a ela o valor "Lua".
 
@@ -79,3 +79,37 @@ nome = prompt('Insira seu nome: ')
 
 alert('Bem-vindo(a) ' + nome + '!')
 
+// 16 - Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
+let contador = 1;
+
+while(contador <= 10){
+    console.log('O número contado é: ' + contador)
+    contador++
+}
+// 17 - Crie um contador que começa em 10 e vá até 0 usando um loop while. Mostre cada número.
+
+/*let contador = 10;
+while (contador >= 0) {
+    console.log(contador);
+    contador--;
+}*/
+
+
+// 18 - Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, usando um loop while no console do navegador.
+
+/*let numeroMaximo = prompt("Digite um número para a contagem regressiva:");
+
+while (numeroMaximo >= 0) {
+    console.log(numeroMaximo);
+    numeroMaximo--;
+}
+
+// 19 - Crie um programa de contagem progressiva. Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
+
+let numeroMaximo = prompt("Digite um número para a contagem progregressiva:");;
+let contador = 0;
+
+while (contador <= numeroMaximo) {
+    console.log(contador);
+    contador++
+}*/
